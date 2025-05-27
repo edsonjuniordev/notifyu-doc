@@ -30,7 +30,7 @@ A API de Agendamentos permite que você:
 
 ## Como começar?
 
-A URL base para acessar nossa API é [google.com](https://google.com). Todas as requisições devem começar com essa URL, seguida dos endpoints documentados.
+A URL base para acessar nossa API é [api.notifyu.com.br](https://api.notifyu.com.br). Todas as requisições devem começar com essa URL, seguida dos endpoints documentados.
 
 1. **Obtenha sua chave de API:** Para utilizar nossa API, você precisa se autenticar com JWT. Acesse sua conta e [gere sua chave](./api-key/create-api-key) na área de configurações.
 

@@ -34,7 +34,6 @@ Authorization: Bearer <seu-token-jwt>
 
 ```http
 POST /auth/signin HTTP/1.1
-Host: sua-api.com
 Content-Type: application/json
 
 {
@@ -47,7 +46,6 @@ Content-Type: application/json
 
 ```http
 POST /auth/signin HTTP/1.1
-Host: sua-api.com
 api-key: SUA_API_KEY
 Content-Type: application/json
 ```
