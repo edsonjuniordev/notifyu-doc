@@ -18,7 +18,9 @@ A API de Agendamentos permite que você:
 
 ## Como funciona?
 
-Nossa API utiliza o padrão REST, retornando respostas no formato JSON, o que facilita a integração com qualquer linguagem de programação. Você precisará de uma chave de API gerar o tokens de autenticação usados nas requisições. Todos os endpoints são documentados detalhadamente para garantir que você tenha todas as informações necessárias para começar rapidamente.
+- Nossa API utiliza o padrão REST e retorna respostas no formato JSON, facilitando a integração com qualquer linguagem de programação.
+- É necessário possuir uma chave de API para gerar os tokens de autenticação usados nas requisições.
+- Todos os endpoints estão documentados de forma detalhada para assegurar que você tenha todas as informações necessárias para começar de forma ágil.
 
 ## Principais Recursos
 
@@ -30,8 +32,8 @@ Nossa API utiliza o padrão REST, retornando respostas no formato JSON, o que fa
 
 A URL base para acessar nossa API é [google.com](https://google.com). Todas as requisições devem começar com essa URL, seguida dos endpoints documentados.
 
-1. **Obtenha sua chave de API:** Para utilizar nossa API, você precisa se autenticar com JWT. Acesse sua conta e gere sua chave na área de configurações.
+1. **Obtenha sua chave de API:** Para utilizar nossa API, você precisa se autenticar com JWT. Acesse sua conta e [gere sua chave](./api-key/create-api-key) na área de configurações.
 
-2. **Teste a API:** Utilize ferramentas como Insomnia ou Postman para realizar suas primeiras requisições.
+2. **Teste a API:** Utilize ferramentas como [Insomnia](https://insomnia.rest/download) ou [Postman](https://www.postman.com/) para realizar suas primeiras requisições.
 
 3. **Integre com o seu sistema:** Conecte a API diretamente ao seu sistema e aproveite a automação.

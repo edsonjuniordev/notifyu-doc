@@ -58,6 +58,6 @@ Content-Type: application/json
 
 Nunca exponha sua chave de API em repositórios públicos ou outros locais não seguros.
 
-- **Revogação de chaves**
+- **Deleção de chaves**
 
-Se você suspeitar que uma chave foi comprometida, revogue-a imediatamente e crie uma nova
+Se você suspeitar que uma chave foi comprometida, [delete-a](./delete-api-key.md) imediatamente e crie uma nova

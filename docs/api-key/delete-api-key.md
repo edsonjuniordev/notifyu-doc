@@ -47,7 +47,7 @@ A API retorna apenas um status code `204`.
 
 ## Cuidados Importantes
 
-- **Revogação imediata**
+- **Exclusão imediata**
 
 Exclua imediatamente qualquer chave de API comprometida para evitar acessos não autorizados.
 
