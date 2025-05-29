@@ -1,41 +1,53 @@
-# Website
+# Notifyu DOC
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Bem-vindo ao repositório da Notifyu API, uma plataforma poderosa para agendamento e gerenciamento de notificações.
 
-### Installation
+## O que é a Notifyu?
 
-```
-$ yarn
-```
+A Notifyu é uma plataforma desenvolvida para permitir que desenvolvedores e empresas gerenciem notificações de maneira eficiente e integrada. Com funcionalidades que abrangem desde a criação de notificações personalizadas até a gestão de pedidos, a Notifyu é uma solução completa para sistemas que dependem de notificações robustas e escaláveis.
 
-### Local Development
+Com a Notifyu, você pode agendar notificações personalizadas e definir um destino de webhook para receber essas notificações no momento exato que desejar.
 
-```
-$ yarn start
-```
+## Funcionalidades
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+A API da NotifyU oferece as seguintes funcionalidades (algumas são para gestão interna):
 
-### Build
+### Autenticação e Gestão de Usuários
 
-```
-$ yarn build
-```
+- **Signup**: Cadastro de novos usuários na plataforma.
+- **Signin**: Login de usuários cadastrados
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+### Gestão de API Keys
 
-### Deployment
+- **Criar API Key**: Gere chaves de API para autenticar suas aplicações.
+- **Listar API Keys**: Veja todas as chaves de API criadas pelo usuário.
+- **Deletar API Key**: Remova chaves de API quando não forem mais necessárias.
 
-Using SSH:
+### Notificações
 
-```
-$ USE_SSH=true yarn deploy
-```
+- **Criar Notificação**: Agende notificações personalizadas.
+- **Listar Notificações**: Visualize todas as notificações agendadas.
 
-Not using SSH:
+### Planos (interno)
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+- **Criar Plano**: Configure planos para cobranças.
+- **Listar Planos**: Veja os planos disponíveis.
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+### Pedidos
+
+- **Criar Pedido**: Registre novos pedidos.
+- **Listar Pedidos**: Consulte o histórico de pedidos realizados.
+
+## Tecnologias Utilizadas
+
+A Notifyu foi desenvolvida utilizando tecnologias modernas e confiáveis:
+
+- **Node.js**: Plataforma para execução do JavaScript no backend.
+- **Serverless Framework**: Gerenciamento e deploy de funções serverless.
+- **DynamoDB**: Banco de dados NoSQL escalável e de alta performance.
+
+## Acessando a API
+
+A API da NotifyU está disponível em: [api.notifyu.com.br](api.notifyu.com.br).
+
+Certifique-se de consultar a [documentação](docs.notifyu.com.br) completa para obter detalhes sobre os endpoints e parâmetros de cada funcionalidade
