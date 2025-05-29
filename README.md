@@ -1,6 +1,6 @@
 # Notifyu DOC
 
-Bem-vindo ao repositório da Notifyu API, uma plataforma poderosa para agendamento e gerenciamento de notificações.
+Bem-vindo ao repositório da Notifyu DOC, uma plataforma poderosa para agendamento e gerenciamento de notificações.
 
 ## O que é a Notifyu?
 
