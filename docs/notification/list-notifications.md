@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Listar notificações
@@ -52,6 +52,7 @@ Authorization: Bearer <seu-token-jwt>
       "status": "NOTIFIED",
       "notificationDate": "2025-05-22T10:11:00.000Z",
       "destination": "https://webhook.site/c0bc7fda-9133-482c-b16e-6791ba99ce48",
+      "notifiedAt": "2025-06-04T13:51:00.168Z",
       "createdAt": "2025-05-22T13:09:22.157Z",
       "updatedAt": "2025-05-22T13:11:36.927Z"
     }
